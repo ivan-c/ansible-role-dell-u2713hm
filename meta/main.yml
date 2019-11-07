@@ -1,0 +1,7 @@
+galaxy_info:
+  description: support 1440p on Dell U2713HM over HDMI, albiet at 30hz
+  min_ansible_version: 2.4
+
+  galaxy_tags: []
+
+dependencies: []
