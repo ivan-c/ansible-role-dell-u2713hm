@@ -1,0 +1,11 @@
+---
+
+- name: Create xorg conf directory
+  file:
+    path: /etc/X11/xorg.conf.d
+    state: directory
+
+- name: Install Dell U2713HM config
+  copy:
+    src: files/10-monitor.conf
+    dest: /etc/X11/xorg.conf.d/
